@@ -1,0 +1,11 @@
+<div>
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Find Languages" #filter (keyup)="update()">
+
+    <span>
+        <button type="button" (click)="resetLanguages()">Clear</button>
+    </span>
+</div>
+
+<ul>
+    <li *ngFor="let language of languages" [innerHTML]="language.name | highlightFilter: filter.value"></li>
+</ul>
