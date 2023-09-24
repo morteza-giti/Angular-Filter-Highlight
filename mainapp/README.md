@@ -1,10 +1,9 @@
-# Mainapp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 # Angular Highlight Search
 
-## This Angular project showcases a search functionality that allows users to search for specific languages and highlights the matching letters. The heart of this project lies in the custom Angular pipe named "HighlightFilterPipe," which dynamically highlights letters in the displayed list based on the user's search term.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+
+This Angular project showcases a search functionality that allows users to search for specific languages and highlights the matching letters. The heart of this project lies in the custom Angular pipe named "HighlightFilterPipe," which dynamically highlights letters in the displayed list based on the user's search term.
 
 ## How it Works
 The SearchListComponent in this project is responsible for managing the search term and list of languages. When a user types in the search input, the update() method is triggered, which filters the languages based on the search term using the "HighlightFilterPipe."
